@@ -1,0 +1,41 @@
+.saving-item {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #787777;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.saving-item p {
+  margin: 0;
+}
+
+.saving-item p:first-child {
+  color: green;
+  width: 150px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#nominal,
+#source {
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+#source {
+  resize: none;
+  vertical-align: middle;
+}
